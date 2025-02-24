@@ -24,7 +24,7 @@ slang_dictionary = {
 "say less":"Stop talking, I understand and am on board with what you're saying",
 "low key":"Moderate, quiet or restrained enthusiasm for something or someone",
 "high key":"Open and earnest enthusiasm for something or someone",
-"rizz":"Charm or the ability to effortlessly flirt with others",
+"rizz":"Charm or the ability to effortlessly flirt with others. Short for charisma.",
 "yeet":"To throw something with force",
 "goat":"Greatest of all time",
 "yolo":"You only live once",
@@ -47,4 +47,4 @@ def home():
     return render_template('index.html', translation=translation)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=19080, debug=False)
+    app.run(host='127.0.0.1', port=19080, debug=False)
